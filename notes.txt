@@ -1,0 +1,13 @@
+Vamos criar um sistema bancário durante as aulas de Java OO
+Conta (especificação do tipo conta):
+- Dados (atributos):
+-- saldo
+-- agencia
+-- numero
+-- titular
+- Comportamentos:
+-- saca
+-- deposita
+-- transfere
+
+Depois de feita a especificação, precisamos criar instâncias de objetos do tipo conta.
