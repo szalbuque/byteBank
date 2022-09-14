@@ -3,8 +3,14 @@ public class CriaConta {
         //primeiraConta é um ponteiro para um objeto do tipo Conta
 
         Conta primeiraConta = new Conta();
-        primeiraConta.saldo = 200;
-        System.out.println(primeiraConta.saldo);
+        Cliente primeiroCliente = new Cliente();
+
+        primeiroCliente.nome = "Silvia";
+        primeiroCliente.cpf = "111.111.111-11";
+        primeiroCliente.profissao = "Analista de sistemas";
+        primeiraConta.titular = primeiroCliente;
+
+        System.out.println(primeiraConta.titular.nome);
         primeiraConta.deposita(50);
         System.out.println(primeiraConta.saldo);
         System.out.println(primeiraConta.saca(100));

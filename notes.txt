@@ -11,3 +11,6 @@ Conta (especificação do tipo conta):
 -- transfere
 
 Depois de feita a especificação, precisamos criar instâncias de objetos do tipo conta.
+
+Criada a classe Cliente, e feita a referência do atributo titular, na classe Conta, a um objeto do tipo Cliente.
+Isto é um exemplo de composição de objetos.
