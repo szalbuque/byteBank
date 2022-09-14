@@ -3,7 +3,21 @@ public class Conta {
     private int agencia;
     private int numero;
     private Cliente titular;
+    // a variável total pertence ao escopo da classe; todos os objetos acessam a mesma variável
+    private static int total;
 
+    // construtor
+
+    public Conta (int agencia, int numero) {
+        Conta.total++;
+
+        this.setAgencia(agencia);
+        this.setNumero(numero);
+    }
+    // O método abaixo pertence à Classe Conta e não aos objetos do tipo conta
+    public static int getTotal() {
+        return Conta.total;
+    }
     public Cliente getTitular() {
         return titular;
     }

@@ -15,4 +15,8 @@ Depois de feita a especificação, precisamos criar instâncias de objetos do ti
 Criada a classe Cliente, e feita a referência do atributo titular, na classe Conta, a um objeto do tipo Cliente.
 Isto é um exemplo de composição de objetos.
 
-Feito o encapsulamento dos atributos.
+Feito o encapsulamento dos atributos. Criados os getters e setters.
+
+Construtores são necessários para que, sempre que uma instância de um objeto for criada, esteja atendendo às regras do negócio.
+
+Variável estática criada numa classe é acessada por todos os objetos instanciados para aquela classe.
